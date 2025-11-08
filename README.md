@@ -8,6 +8,8 @@
   - **Live visualization:** `python -m vservo.minimal_viewer` animates the 3D camera pose, per-feature pixel motion, error decay, and velocity commands. Optionally export the animation to a GIF (see below).
   - **Composable code:** camera, Jacobian, velocity control, visualization, and utility modules stay decoupled so you can reuse them in notebooks or other robotics stacks.
 
+![IBVS simulation](media/ibvs.gif)
+
 ## Features
 
   - Deterministic camera model (`vservo/camera/camera.py`) with projection/back-projection, pose integration, and point visibility checks.
