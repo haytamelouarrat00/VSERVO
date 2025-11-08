@@ -1,0 +1,9 @@
+Fx = 800
+Fy = 800
+Cu = 240
+Cv = 320
+LAMBDA_GAIN = 0.5
+MU = 1e-4
+CONVERGENCE_THRESHOLD = 1e-3
+DT = 0.1
+EPSILON = 1e-8
